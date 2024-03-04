@@ -9,14 +9,14 @@ A plugin for Microsoft's domain-specific language [Bicep][].
 With [Vim 8 packages](http://vimhelp.appspot.com/repeat.txt.html#packages):
 
 ```sh
-git clone https://github.com/carlsmedstad/vim-bicep.git ~/.vim/pack/plugins/start/vim-bicep
+git clone https://github.com/nickrmorris/vim-bicep.git ~/.vim/pack/plugins/start/vim-bicep
 ```
 
 With [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
 call plug#begin()
-Plug 'carlsmedstad/vim-bicep'
+Plug 'nickrmorris/vim-bicep'
 call plug#end()
 ```
 
@@ -24,7 +24,7 @@ With NeoVim and [packer-nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
 require("packer").startup(function()
-  use("carlsmedstad/vim-bicep")
+  use("nickrmorris/vim-bicep")
 end)
 ```
 
